@@ -445,10 +445,9 @@ body{
     background: #F8F8F8;
 }
 .foot{
-    display: grid;
-    grid-template-columns: 2rem 1fr 1fr 1fr 2rem;
-    width:200%;
-}
+    display: flex;
+    margin: auto;
+    text-align: center;
 .Product{
     grid-column: 2/3;
 }
